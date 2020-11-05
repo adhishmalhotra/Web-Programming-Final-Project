@@ -1,0 +1,35 @@
+body {
+    background-color: lightcyan;
+}
+
+#header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+#navBar {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navBar a {
+    float: left;
+    color: lightgray;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin: 10px;
+}
+
+#navBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navBar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
