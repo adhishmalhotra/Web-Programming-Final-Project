@@ -31,5 +31,24 @@ body {
 
 #navBar a.active {
     background-color: #4CAF50;
-    color: white;
+    opacity: 0.5;
+    color: lightgray;
+}
+
+#leftContent {
+    float: left;
+    align-content: left;
+    border: 5px orange;
+}
+
+#midContent {
+    float: center;
+    align-content: center;
+    border: 5px orange;
+}
+
+#rightContent {
+    float: right;
+    align-content: right;
+    border: 5px orange;
 }

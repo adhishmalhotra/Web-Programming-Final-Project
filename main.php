@@ -10,7 +10,7 @@
 <body>
     
 <div id="header">
-    <h1>Sports and Events Management</h1>
+    <header>Sports and Events Management</header>
 </div>
 
 <div id="navBar">
@@ -19,6 +19,22 @@
     <a href="#schedule">Schedule an Event</a>
     <a href="#info">Information</a>
     <a href="#contact">Contact</a>
+</div>
+
+
+<div id="leftContent">
+    <h1>Header</h2>
+    <p>This is a paragraph</p>
+</div>
+
+<div id="midContent">
+    <h1>Header</h2>
+    <p>This is a paragraph</p>
+</div>
+
+<div id="rightContent">
+    <h1>Header</h2>
+    <p>This is a paragraph</p>
 </div>
 
 
