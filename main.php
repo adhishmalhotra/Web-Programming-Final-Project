@@ -14,7 +14,7 @@
 <body>
     
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <a href="#" class="navbar-brand">CAMPUS WELLNESS CENTRE</a>
+    <a href="#" class="navbar-brand">ONTARIO TECH UNIVERSITY</a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,25 +35,19 @@
             <li class="nav-item">
                 <a href="#contact" class="nav-link" data-toggle="modal">Contact</a>
             </li>
+            <li class="nav-item">
+                <a href="#login" class="nav-link">Login</a>
+            </li>
+            <li class="nav-item">
+                <a href="#signup" class="nav-link">Sign up</a>
+            </li>
         </ul>
     </div>
 </nav>
 
-<div id="leftContent">
-    <h1>Header</h2>
-    <p>This is a paragraph</p>
+<div class="jumbotron text-center">
+    <h1>CAMPUS RECREATIONAL WELNESS CENTER</h1>
 </div>
-
-<div id="midContent">
-    <h1>Header</h2>
-    <p>This is a paragraph</p>
-</div>
-
-<div id="rightContent">
-    <h1>Header</h2>
-    <p>This is a paragraph</p>
-</div>
-
 
 </body>
 </html>
