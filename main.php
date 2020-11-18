@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+    body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("background.jpg")
+
+  /* Half height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -49,7 +66,7 @@
     <h1>CAMPUS RECREATIONAL WELNESS CENTER</h1>
 </div>
 
-<div class="container">
+<div class="container bg">
     <div class="col-sm-4">
         <a href="#">
             <img src="" class="img-thumbnail">
@@ -72,9 +89,8 @@
         </a>
         <h3>Facilities</h3>
         <a href="#" class="btn btn-danger">Facility information</a>
-</div>
-<div class="container">
-</div>
+        
+    </div>
     <div class="col-sm-4">
         <a href="#">
             <img src="" class="img-thumbnail">
@@ -90,6 +106,7 @@
         <a href="#" class="btn btn-danger">Memberships</a>
     </div>
 </div>
+
 
 </body>
 </html>
