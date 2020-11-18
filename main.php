@@ -49,5 +49,47 @@
     <h1>CAMPUS RECREATIONAL WELNESS CENTER</h1>
 </div>
 
+<div class="container">
+    <div class="col-sm-4">
+        <a href="#">
+            <img src="" class="img-thumbnail">
+        </a>
+        <h3>Book a Gym Time</h3>
+        <a href="#" class="btn btn-danger">Make an appointment</a>
+    
+    </div>
+    <div class="col-sm-4">
+        <a href="#">
+            <img src="" class="img-thumbnail">
+        </a>
+        <h3>Book an Open Gym time</h3>
+        <a href="#" class="btn btn-danger">Make an appointment</a>
+    
+    </div>
+    <div class="col-sm-4">
+        <a href="#">
+            <img src="" class="img-thumbnail">
+        </a>
+        <h3>Facilities</h3>
+        <a href="#" class="btn btn-danger">Facility information</a>
+</div>
+<div class="container">
+</div>
+    <div class="col-sm-4">
+        <a href="#">
+            <img src="" class="img-thumbnail">
+        </a>
+        <h3>Virtual Gym class</h3>
+        <a href="#" class="btn btn-danger">Book an appointment</a>
+    </div>
+    <div class="col-sm-4">
+        <a href="#">
+            <img src="" class="img-thumbnail">
+        </a>
+        <h3>Memberships</h3>
+        <a href="#" class="btn btn-danger">Memberships</a>
+    </div>
+</div>
+
 </body>
 </html>
