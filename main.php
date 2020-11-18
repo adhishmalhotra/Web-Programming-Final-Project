@@ -2,12 +2,17 @@
 <html>
 <head>
 <style>
-    body, html {
-  height: 100%;
+
+
+
+h2{
+    color: white; 
 }
+
 .bg {
   /* The image used */
-  background-image: url("background.jpg")
+  background-image: url("background.jpg");
+
 
   /* Half height */
   height: 50%;
@@ -71,7 +76,7 @@
         <a href="#">
             <img src="" class="img-thumbnail">
         </a>
-        <h3>Book a Gym Time</h3>
+        <h2>Book a Gym Time</h2>
         <a href="#" class="btn btn-danger">Make an appointment</a>
     
     </div>
@@ -79,7 +84,7 @@
         <a href="#">
             <img src="" class="img-thumbnail">
         </a>
-        <h3>Book an Open Gym time</h3>
+        <h2>Book an Open Gym time</h2>
         <a href="#" class="btn btn-danger">Make an appointment</a>
     
     </div>
@@ -87,7 +92,7 @@
         <a href="#">
             <img src="" class="img-thumbnail">
         </a>
-        <h3>Facilities</h3>
+        <h2>Facilities</h2>
         <a href="#" class="btn btn-danger">Facility information</a>
         
     </div>
@@ -95,14 +100,14 @@
         <a href="#">
             <img src="" class="img-thumbnail">
         </a>
-        <h3>Virtual Gym class</h3>
+        <h2>Virtual Gym class</h2>
         <a href="#" class="btn btn-danger">Book an appointment</a>
     </div>
     <div class="col-sm-4">
         <a href="#">
             <img src="" class="img-thumbnail">
         </a>
-        <h3>Memberships</h3>
+        <h2>Memberships</h2>
         <a href="#" class="btn btn-danger">Memberships</a>
     </div>
 </div>
