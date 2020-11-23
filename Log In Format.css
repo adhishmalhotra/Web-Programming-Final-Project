@@ -40,7 +40,7 @@ body {
   font-weight: bold;
   color: #8a0000;
   border: 1px solid #8a0000;
-  background-color: #4CAF50;
+  background-color: #ffcccb;
   opacity: 0;
 }
 
@@ -68,6 +68,11 @@ body {
   padding: 0px 0px 5px 5px;
 }
 
+.LoginFormBox:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
 #LoginButton {
   width: 100%;
   padding: 7px;
@@ -79,3 +84,109 @@ body {
   cursor: pointer;
   outline: none;
 }
+
+.SignupButton {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;   
+}
+
+input[type=text], input[type=password] {
+  width: 95%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #3a3a3a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancel {
+  padding: 14px 20px;
+  background-color: transparent;
+  color: black;
+}
+
+.cancel, .register {
+  float: left;
+  width: 50%;
+}
+
+.form {
+  padding: 16px;
+}
+
+.SUF {
+  display: block; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: #3a3a3a;
+  padding-top: 50px;
+}
+
+.form-content {
+  background-color: #fefefe;
+  border-radius: 7px;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clear::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
