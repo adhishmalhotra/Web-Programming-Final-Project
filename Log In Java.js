@@ -14,3 +14,12 @@ loginButton.addEventListener("click", (e) => {
         loginErrorMsg.style.opacity = 3;
     }
 })
+
+
+var SUF = document.getElementById('SignUp');
+
+window.onclick = function(event) {
+  if (event.target == SUF) {
+    SUF.style.display = "grid";
+  }
+}
