@@ -8,20 +8,59 @@
 </head>
 
 <body>
+
+<!-- Log In Page -->
   <main id="main">
+
     <h1 id="LoginHeader">Login</h1>
-    
+   
     <div id="ErrorMsgBox">
       <p id="ErrorMsg">Invalid Username <span id="error-msg-second-line">and/or Password</span></p>
     </div>
     
-    <form id="LoginForm">
+    <form id="LoginForm" action=" ">
       <input type="text" name="username" id="UsernameBox" class="LoginFormBox" placeholder="Username">
+
       <input type="password" name="password" id="PasswordBox" class="LoginFormBox" placeholder="Password">
+
+      <button onclick="document.getElementById('SignUp').style.display='block'" style="width:auto;" class="SignupButton">Sign Up</button>
+
       <input type="submit" value="Login" id="LoginButton">
+
     </form>
-  
+
   </main>
+
+  <!-- Signup form -->
+
+  <div id="SignUp" class="SUF">
+  
+    <span onclick="document.getElementById('SignUp').style.display='none'" class="close" title="Close Form">&times;</span>
+
+    <form class="form-content" action=" ">
+
+      <div class="form">
+        <h1>Register</h1>
+        <p>Create a new User account</p>
+        <hr>
+
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <input type="text" placeholder="Enter User Name" name="User Name" required>
+
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+        <div class="clear">
+
+          <button type="button" onclick="document.getElementById('SignUp').style.display='none'" class="cancel">Cancel</button>
+          <button type="submit" class="register">Sign Up</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
 </body>
 
 </html>
