@@ -45,17 +45,13 @@ h2{
             <li class="nav-item">
                 <a href="main.php" class="nav-link active">Home</a>
             </li>
-            <li class="nav-item">
-                <a href="#viewEvents" class="nav-link">View Events</a>
-            </li>
+           
             <li class="nav-item">
                 <a href="#schedule" class="nav-link">Schedule an Event</a>
             </li>
+
             <li class="nav-item">
-                <a href="#info" class="nav-link">Information</a>
-            </li>
-            <li class="nav-item">
-                <a href="#contact" class="nav-link" data-toggle="modal">Contact</a>
+                <a href="contact.html" class="nav-link" data-toggle="modal">Contact</a>
             </li>
             <li class="nav-item">
                 <a href="#login" class="nav-link">Login</a>
