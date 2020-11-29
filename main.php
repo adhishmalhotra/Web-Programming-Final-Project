@@ -43,7 +43,7 @@ h2{
     <div class="navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a href="#" class="nav-link active">Home</a>
+                <a href="main.php" class="nav-link active">Home</a>
             </li>
             <li class="nav-item">
                 <a href="#viewEvents" class="nav-link">View Events</a>
