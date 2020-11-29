@@ -72,43 +72,45 @@ h2{
 </div>
 
 <div class="container bg">
-    <div class="col-sm-4">
-        <a href="#">
-            <img src="" class="img-thumbnail">
-        </a>
-        <h2>Book a Gym Time</h2>
-        <a href="#" class="btn btn-danger">Make an appointment</a>
+    <div class="row">
+        <div class="col-sm-4">
+            <a href="#">
+                <img src="images/booking.png" class="img-thumbnail">
+            </a>
+                <h2>Book a Gym Time</h2>
+            <a href="#" class="btn btn-danger">Make an appointment</a>
     
-    </div>
-    <div class="col-sm-4">
-        <a href="#">
-            <img src="" class="img-thumbnail">
-        </a>
-        <h2>Book an Open Gym time</h2>
-        <a href="#" class="btn btn-danger">Make an appointment</a>
+        </div>
+        <div class="col-sm-4">
+            <a href="#">
+                <img src="images/basketball.jpg" class="img-thumbnail">
+            </a>
+                <h2>Book an Open Gym time</h2>
+            <a href="#" class="btn btn-danger">Make an appointment</a>
     
-    </div>
-    <div class="col-sm-4">
-        <a href="#">
-            <img src="" class="img-thumbnail">
-        </a>
-        <h2>Facilities</h2>
-        <a href="#" class="btn btn-danger">Facility information</a>
-        
-    </div>
-    <div class="col-sm-4">
-        <a href="#">
-            <img src="" class="img-thumbnail">
-        </a>
-        <h2>Virtual Gym class</h2>
-        <a href="#" class="btn btn-danger">Book an appointment</a>
-    </div>
-    <div class="col-sm-4">
-        <a href="#">
-            <img src="" class="img-thumbnail">
-        </a>
-        <h2>Memberships</h2>
-        <a href="#" class="btn btn-danger">Memberships</a>
+        </div>
+        <div class="col-sm-4">
+            <a href="#">
+                <img src="images/facility" class="img-thumbnail">
+            </a>
+                <h2>Facilities</h2>
+            <a href="#" class="btn btn-danger">Facility information</a>
+
+        </div>
+        <div class="col-sm-4">
+            <a href="#">
+                <img src="images/yoga.jpg" class="img-thumbnail">
+            </a>
+                <h2>Virtual Gym class</h2>
+            <a href="#" class="btn btn-danger">Book an appointment</a>
+        </div>
+        <div class="col-sm-4">
+            <a href="#">
+                <img src="images/membership.jpg" class="img-thumbnail">
+            </a>
+                <h2>Memberships</h2>
+            <a href="#" class="btn btn-danger">Memberships</a>
+        </div>
     </div>
 </div>
 
