@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font: 15px Helvetica;
+    background-color: lavender;
+}
+
+#fullDiv {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    display: block;
+    width: 14.2857%;
+    text-align: center;
+    list-style-type: none;
+}
+
+li:nth-child(n+1):nth-child(-n+7) {
+    font-weight: 900;
+    color: #e67e22;
+}
+
+.selected {
+    background-color: #1abc9c;
+    color: #ecf0f1;
+}
+
+li:nth-child(n+39),
+li:nth-child(n+8):nth-child(n) {
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+li:hover:nth-child(n+8):nth-child(-n+38) {
+    border-radius: 5px;
+    background-color: #1abc9c;
+    color: #ecf0f1;
+}
+
+#bookingTimes {
+    text-align: center;
+    padding: 60px;
+    visibility: hidden;
+}
+
+#bookingTimes label {
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+#bookingTimes label:hover {
+    background-color: orange;
+}
+
+#container {
+    width: 800px;
+    height: 550px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#month {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
