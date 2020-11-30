@@ -1,12 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        
+    </body>
+</html>
 <?php
-
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'demo');
-
-$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
-if($link === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
+$host="localhost";
+$user="root";
+$pass="";
+$name="user";
+$connection = new mysqli($host, $user, $pass, $name);
+if ($connection->connect_error) {
+    die("connection failed " . $conn->connect_error);
 }
+$sql = "INSERT INTO users(email,username,password)
+        VALUES '{$connection->real_escape_string($_POST['email'])}'
+            '{$connection->real_escape_string($_POST['UserName'])}'
+            '{$connection->real_escape_string($_POST['psw'])}'";
+
+$insertsql = $conn->query($sql);
+if($insertsql==TRUE){
+    echo "<h1>It Works!!</h1>";
+}
+else{
+    die("error:{$connection->errno}:{$connection->error}");
+}
+$connection->close();
 ?>
