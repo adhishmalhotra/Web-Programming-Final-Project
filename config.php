@@ -14,10 +14,10 @@ $connection = new mysqli($host, $user, $pass, $name);
 if ($connection->connect_error) {
     die("connection failed " . $conn->connect_error);
 }
-$sql = "INSERT INTO singup(email,username,password)
-        VALUES '{$connection->real_escape_string($_POST['email'])}',
+$sql = "INSERT INTO singup(email,username,pass)
+        VALUES ('{$connection->real_escape_string($_POST['email'])}',
             '{$connection->real_escape_string($_POST['UserName'])}',
-            '{$connection->real_escape_string($_POST['psw'])}'";
+            '{$connection->real_escape_string($_POST['psw'])}')";
 
 $insertsql = $connection->query($sql);
 if($insertsql==TRUE){
