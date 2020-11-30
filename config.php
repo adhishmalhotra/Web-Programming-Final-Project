@@ -14,7 +14,7 @@ $connection = new mysqli($host, $user, $pass, $name);
 if ($connection->connect_error) {
     die("connection failed " . $conn->connect_error);
 }
-$sql = "INSERT INTO singup(email, username, password)
+$sql = "INSERT INTO signup(email, username, password)
         VALUES ('{$connection->real_escape_string($_POST['email'])}',
             '{$connection->real_escape_string($_POST['UserName'])}',
             '{$connection->real_escape_string($_POST['psw'])}')";
