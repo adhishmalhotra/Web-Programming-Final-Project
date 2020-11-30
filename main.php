@@ -54,10 +54,10 @@ h2{
                 <a href="contact.html" class="nav-link" data-toggle="modal">Contact</a>
             </li>
             <li class="nav-item">
-                <a href="#login" class="nav-link">Login</a>
+                <a href="Log In Page.html" class="nav-link">Login</a>
             </li>
             <li class="nav-item">
-                <a href="#signup" class="nav-link">Sign up</a>
+                <a href="Log In Page.html" class="nav-link">Sign up</a>
             </li>
         </ul>
     </div>

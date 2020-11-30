@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 00c14d878055dc22dc2bb7726fbb5d9d5fcaf386
 const loginForm = document.getElementById("LoginForm");
 const loginButton = document.getElementById("LoginButton");
 const loginErrorMsg = document.getElementById("ErrorMsg");
