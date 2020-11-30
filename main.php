@@ -3,7 +3,9 @@
 <head>
 <style>
 
-
+img {
+    opacity: 0.5;
+}
 
 h2{
     color: white; 
@@ -53,6 +55,7 @@ h2{
             <li class="nav-item">
                 <a href="contact.html" class="nav-link" data-toggle="modal">Contact</a>
             </li>
+            
             <li class="nav-item">
                 <a href="Log In Page.html" class="nav-link">Login</a>
             </li>
@@ -74,7 +77,7 @@ h2{
                 <img src="images/booking.png" class="img-thumbnail">
             </a>
                 <h2>Book a Gym Time</h2>
-            <a href="#" class="btn btn-danger">Make an appointment</a>
+            <a href="calender.html" class="btn btn-danger">Make an appointment</a>
     
         </div>
         <div class="col-sm-4">
