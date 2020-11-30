@@ -49,17 +49,21 @@ h2{
             </li>
            
             <li class="nav-item">
-                <a href="#schedule" class="nav-link">Schedule an Event</a>
+                <a href="calendar.html" class="nav-link">Schedule an Event</a>
             </li>
 
             <li class="nav-item">
                 <a href="contact.html" class="nav-link" data-toggle="modal">Contact</a>
             </li>
+<<<<<<< HEAD
             
             <li class="nav-item">
+=======
+            <li id="login" class="nav-item">
+>>>>>>> c2b080bcda81a6472bbe3fec5acc2e38ef229a3b
                 <a href="Log In Page.html" class="nav-link">Login</a>
             </li>
-            <li class="nav-item">
+            <li id="login" class="nav-item">
                 <a href="Log In Page.html" class="nav-link">Sign up</a>
             </li>
         </ul>
@@ -73,19 +77,23 @@ h2{
 <div class="container bg">
     <div class="row">
         <div class="col-sm-4">
-            <a href="#">
+            <a href="calendar.html">
                 <img src="images/booking.png" class="img-thumbnail">
             </a>
                 <h2>Book a Gym Time</h2>
+<<<<<<< HEAD
             <a href="calender.html" class="btn btn-danger">Make an appointment</a>
+=======
+            <a href="calendar.html" class="btn btn-danger">Make an appointment</a>
+>>>>>>> c2b080bcda81a6472bbe3fec5acc2e38ef229a3b
     
         </div>
         <div class="col-sm-4">
-            <a href="#">
+            <a href="calendar.html">
                 <img src="images/basketball.jpg" class="img-thumbnail">
             </a>
                 <h2>Book an Open Gym time</h2>
-            <a href="#" class="btn btn-danger">Make an appointment</a>
+            <a href="calendar.html" class="btn btn-danger">Make an appointment</a>
     
         </div>
         <div class="col-sm-4">
@@ -97,11 +105,11 @@ h2{
 
         </div>
         <div class="col-sm-4">
-            <a href="#">
+            <a href="calendar.html">
                 <img src="images/yoga.jpg" class="img-thumbnail">
             </a>
                 <h2>Virtual Gym class</h2>
-            <a href="#" class="btn btn-danger">Book an appointment</a>
+            <a href="calendar.html" class="btn btn-danger">Book an appointment</a>
         </div>
         <div class="col-sm-4">
             <a href="#">
