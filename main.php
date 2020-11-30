@@ -55,12 +55,9 @@ h2{
             <li class="nav-item">
                 <a href="contact.html" class="nav-link" data-toggle="modal">Contact</a>
             </li>
-<<<<<<< HEAD
             
             <li class="nav-item">
-=======
             <li id="login" class="nav-item">
->>>>>>> c2b080bcda81a6472bbe3fec5acc2e38ef229a3b
                 <a href="Log In Page.html" class="nav-link">Login</a>
             </li>
             <li id="login" class="nav-item">
@@ -81,11 +78,7 @@ h2{
                 <img src="images/booking.png" class="img-thumbnail">
             </a>
                 <h2>Book a Gym Time</h2>
-<<<<<<< HEAD
             <a href="calender.html" class="btn btn-danger">Make an appointment</a>
-=======
-            <a href="calendar.html" class="btn btn-danger">Make an appointment</a>
->>>>>>> c2b080bcda81a6472bbe3fec5acc2e38ef229a3b
     
         </div>
         <div class="col-sm-4">
