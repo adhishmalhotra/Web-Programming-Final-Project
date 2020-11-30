@@ -1,4 +1,4 @@
-/* this file is for checking whether the id and password entered by the user is correct or not */
+<!-- This file checks whether the username and password entered by the user is right or not -->
 <!DOCTYPE html>
 <html>
     <head></head>
