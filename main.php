@@ -25,7 +25,7 @@ h2{
   background-size: cover;
 }
 </style>
-<!-- Required meta tags -->
+<!-- Required meta tags --> 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Bootstrap CSS -->
@@ -111,11 +111,11 @@ h2{
             <a href="calendar.html" class="btn btn-danger">Book an appointment</a>
         </div>
         <div class="col-sm-4">
-            <a href="#">
+            <a href="Log In Page.html">
                 <img src="images/membership.jpg" class="img-thumbnail">
             </a>
                 <h2>Memberships</h2>
-            <a href="#" class="btn btn-danger">Memberships</a>
+            <a href="Log In Page.html" class="btn btn-danger">Memberships</a>
         </div>
     </div>
 </div>
