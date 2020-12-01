@@ -56,17 +56,10 @@ h2{
                 <a href="contact.html" class="nav-link" data-toggle="modal">Contact</a>
             </li>
             
-            <?php if( isset($_SESSION['username']) && !empty($_SESSION['username']) ){
-                ?>
 
             <li class="nav-item">
                 <a href="Logout.html" class="nav-link">Logout</a>
             </li>
-
-            <?php 
-            }
-            else{ 
-                ?>
 
             <li class="nav-item">
                 <a href="Log In Page.html" class="nav-link">Login</a>
@@ -74,8 +67,7 @@ h2{
             <li class="nav-item">
                 <a href="Log In Page.html" class="nav-link">Sign up</a>
             </li>
-            <?php 
-            } ?>
+       
             
         </ul>
     </div>
