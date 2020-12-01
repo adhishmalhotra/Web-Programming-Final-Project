@@ -30,11 +30,17 @@ $sql = "SELECT username, password FROM signup where username='$username' and pas
 $result = $conn->query($sql);
 if($result->num_rows==1){
     header("Location: main.php");
+    ?>
+    <script type ="text/javascript">
+        document.getElementById("abc").style.display = "none";
+    </script>
+    <?php
     // echo "You have successfully logged into my website.";
 }
 
 else{
-    $error = "Error, wrong username and passowrd";
+    echo "Error, wrong username and passowrd";
+
 }
 
 $conn->close();
