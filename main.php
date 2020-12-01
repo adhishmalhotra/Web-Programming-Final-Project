@@ -1,8 +1,3 @@
-<?php
-
-sessiom_start();
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -101,11 +96,11 @@ h2{
     
         </div>
         <div class="col-sm-4">
-            <a href="facilities.html">
+            <a href="#">
                 <img src="images/facility" class="img-thumbnail">
             </a>
                 <h2>Facilities</h2>
-            <a href="facilities.html" class="btn btn-danger">Facility information</a>
+            <a href="#" class="btn btn-danger">Facility information</a>
 
         </div>
         <div class="col-sm-4">
