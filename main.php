@@ -84,7 +84,7 @@ h2{
                 <img src="images/booking.png" class="img-thumbnail">
             </a>
                 <h2>Book a Gym Time</h2>
-            <a href="calender.html" class="btn btn-danger">Make an appointment</a>
+            <a href="calendar.html" class="btn btn-danger">Make an appointment</a>
     
         </div>
         <div class="col-sm-4">
