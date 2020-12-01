@@ -1,8 +1,3 @@
-<?php
-
-sessiom_start();
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
