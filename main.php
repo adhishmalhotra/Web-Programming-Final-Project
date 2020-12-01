@@ -55,11 +55,6 @@ h2{
             <li class="nav-item">
                 <a href="contact.html" class="nav-link" data-toggle="modal">Contact</a>
             </li>
-            
-
-            <li class="nav-item">
-                <a href="Logout.html" class="nav-link">Logout</a>
-            </li>
 
             <li class="nav-item">
                 <a href="Log In Page.html" class="nav-link" id="abc">Login</a>
